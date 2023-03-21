@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+.pixel{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: .5px black solid;
+}
+
+.pixel:hover, .selectorButton:hover{
+    cursor: pointer;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.selector{
+    margin-right: 5px;
+    background-color: black;
+    padding: .5px;
+}
+
+.current{
+    margin-bottom: 5px;
+    border: 1px dashed black;
+}
+
+.small-text{
+    font-size: 7px;
+    margin: 0px;
+}
+
+.selectorButton{
+    background-color: grey;
+    height: 18px;
+    width: 50px;
+    margin: 5px;
+    padding: 2px;
+    font-size: 14px;
+    display: flex;
+    line-height: 18px;
+    justify-content: center;
+}
+
+/* .artboard{
+    background-color: black;
+    padding: .5px;
+} */
+
+.chooseColor{
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+
+}
